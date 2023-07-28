@@ -2,7 +2,7 @@ version: "3"
 services:
   api:
     build:
-      context: ./Movie-Api
+      context: /Movie-Api
       dockerfile: Dockerfile
     ports:
       - "80:80"
